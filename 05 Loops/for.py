@@ -73,3 +73,27 @@ for index, value in enumerate(numbers):
 # 2 3
 # 3 4
 # 4 5
+
+# For loop with break 
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+# Output:
+# 0
+# 1
+# 2
+# In this example, the loop will terminate when i reaches 3 due to the break statement.
+
+# For loop with continue
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+# Output:
+# 0
+# 1
+# 2
+# 4
+# In this example, when i is 3, the continue statement will skip the print statement
+# and move to the next iteration of the loop.
